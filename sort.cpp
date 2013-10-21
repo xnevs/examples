@@ -109,6 +109,7 @@ void heapsort(int a[], int n) {
         crnt--;
 	}
 }
+/* end heapsort */
 
 
 
