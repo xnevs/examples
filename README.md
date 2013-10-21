@@ -1,7 +1,7 @@
 Some algorithm implementations
 ==============================
 
-Sorting algorithms
+Sorting algorithms (sort.cpp)
 ------------------
 
 * mergesort
