@@ -102,11 +102,10 @@ void trickle_down(int a[], int n) {
 void heapsort(int a[], int n) {
 	make_heap(a, a+n);
 
-	int crnt = n-1;
-	while(crnt>0) {
+	int crnt = n;
+	while(--crnt>0) {
 		swap(a[0], a[crnt]);
 		trickle_down(a, crnt);
-		crnt--;
 	}
 }
 /* end heapsort */
