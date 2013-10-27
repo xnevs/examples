@@ -106,7 +106,7 @@ void heapsort(int a[], int n) {
 	while(crnt>0) {
 		swap(a[0], a[crnt]);
 		trickle_down(a, crnt);
-        crnt--;
+		crnt--;
 	}
 }
 /* end heapsort */
